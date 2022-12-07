@@ -1,0 +1,3 @@
+# RISC-V-single-cycle-processor-Sum-of-n-numbers
+This project provides an insight into the internal verification of a 32-bit single cycle  processor that implements the Reduced Instruction Set-V and displayed on seven segment on Basys3 FPGA board. The hardware structures were realized using Verilog Hardware Description Language.
+The internal architecture consists of blocks such as the register file, program counter,  instruction memory, control unit, ALU ,data memory, adders and Multiplexers. The instructions used for calculating the sum of 1st 10 natural numbers include add immediate, add, store word ,load word and branch equal. The outputs are displayed on peripherals of seven-segment display on FPFA board
